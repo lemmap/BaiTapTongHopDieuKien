@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Baitap</title>
+</head>
+<body>
+<div>
+   <p>Bài 1: Nhập vào hai số a và b ,và kiểm tra xem a có chia hết cho b hay không?</p>
+    <label for="btnA"></label> <input type="text" placeholder="Nhap vao so a" id="btnA">
+    <label for="btnB"></label> <input type="text" placeholder="Nhap vao so b" id="btnB">
+    <label for="btnCheck"></label><input type="button" value="Check2Nums" id="btnCheck" onclick="check2Number()">
+    <p id="result1"></p>
+</div>
+<div>
+    <p> Nhập tuổi và in ra kết quả nếu tuổi học sinh đó không đủ điều kiện vào học lớp 10.</p>
+    <input type="text" id="age" placeholder="Nhap tuoi hoc sinh">
+    <input type="button" value="kiem tra" id="btnAge" onclick="checkAge()">
+    <p id="result2"></p>
+</div>
+<div>
+    <p> Nhập một số nguyên bất kỳ và in kết quả ra màn hình để nói cho người dùng biết số đó là lớn hay nhỏ hơn 0.</p>
+    <input type="text" id="number3" placeholder="Nhap so can ktra">
+    <input type="button" value="kiem tra" id="btnNum3" onclick="checkNum()">
+    <p id="result3"></p>
+</div>
+<div>
+    <p> Bài 4: Nhập 3 số nguyên và tìm giá trị lớn nhất của ba số nguyên đó</p>
+    <input type="text" id="number41" placeholder="Nhap so thu nhat">
+    <input type="text" id="number42" placeholder="Nhap so thu 2">
+    <input type="text" id="number43" placeholder="Nhap so thu 3">
+    <input type="button" value="kiem tra" id="btnNum4" onclick="checkBig()">
+    <p id="result4"></p>
+</div>
+<div>
+    <p>Bai 5:Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ</p>
+    <input type="text" id="mark1" placeholder="Nhap diem kiem tra">
+    <input type="text" id="mark2" placeholder="Nhap diem thi ky 1">
+    <input type="text" id="mark3" placeholder="Nhap diem thi cuoi ki">
+    <input type="button" value="kiem tra" id="btnNum5" onclick="checkRank()">
+    <p id="result5"></p>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
